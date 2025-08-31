@@ -39,6 +39,7 @@ export class AuthenticationHelper {
     challenge: new Uint8Array([49, 49, 49, 49, 49, 49]),
     authType: [
       userAuth.UserAuthType.PIN,
+      userAuth.UserAuthType.FACE,
       userAuth.UserAuthType.FINGERPRINT
     ],
     authTrustLevel: userAuth.AuthTrustLevel.ATL1,
