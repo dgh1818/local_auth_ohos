@@ -72,8 +72,8 @@ export class AuthenticationHelper {
           break;
         default:
           this.authParam.authType = [
-            userAuth.UserAuthType.FINGERPRINT,
             userAuth.UserAuthType.FACE,
+            userAuth.UserAuthType.FINGERPRINT,
             userAuth.UserAuthType.PIN
           ];
           break;
